@@ -1,0 +1,1 @@
+<p class="text-center"><?php echo __pinhole( 'content_none' ); ?></p>

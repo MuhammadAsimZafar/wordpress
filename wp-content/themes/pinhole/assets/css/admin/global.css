@@ -1,0 +1,115 @@
+/* Admin options */
+
+input.pinhole-hidden,
+.pinhole-hidden {
+    display: none;
+}
+
+img.pinhole-img-select {
+    border: 2px solid #eee;
+    cursor: pointer;
+    border-radius: 4px;
+    background: #fff;
+    max-width: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -ms-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    image-rendering: optimizeSpeed;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+
+img.pinhole-img-select.selected {
+    border: 2px solid #0074a2;
+}
+
+ul.pinhole-img-select-wrap {
+    width: 100%;
+    display: flex;
+    margin: 5px 0;
+    flex-wrap: wrap;
+}
+
+ul.pinhole-img-select-wrap li {
+    margin-right: 9px;
+    width: auto;
+    max-width: 75px;
+}
+
+.pinhole-disabled {
+    opacity: 0.3;
+}
+
+.pinhole-img-select-wrap li span {
+    font-size: 11px;
+    display: block;
+    text-align: center;
+    max-width: 60px;
+    line-height: 13px;
+}
+
+#pinhole_galleries_template_options,
+#pinhole_albums_template_options {
+    display: none;
+}
+
+.pinhole-live-search-items.tagchecklist>span{
+    width: 100%;
+    cursor: move;
+    display: block;
+    margin-top: 2px;
+}
+
+.pinhole-live-search-items.tagchecklist .ntdelbutton{
+    margin-top: -2px;
+}
+
+.pinhole-opt-image_limit {
+    max-width: 35px;
+    text-align: center;
+    padding: 6px 0 !important;
+}
+
+.pinhole-setting select,
+.pinhole-setting input {
+    float: right;
+}
+
+/* Welcome panel */
+
+.welcome-panel.pinhole-welcome-panel {
+    margin: 33px 20px 0 0;
+    padding-bottom: 30px;
+}
+
+.welcome-panel.pinhole-welcome-panel .welcome-panel-column,
+.welcome-panel.pinhole-welcome-panel .welcome-panel-column:first-child {
+    max-width: 330px;
+    margin-right: 40px;
+    width: 25%;
+}
+
+.pinhole-welcome-panel  .welcome-panel-column.important h3 {
+    color: #F44336;
+}
+
+.pinhole-welcome-panel  .welcome-panel-column.important h3 .dashicons{
+    margin-top: 4px;
+}
+
+
+/* Gutenberg */
+.block-editor-page .pinhole-template-settings-wrap img.pinhole-img-select{
+    max-width: 100px!important;
+}
+.block-editor-page .pinhole-template-settings-wrap .pinhole-img-select-wrap li{
+    max-width:100px;
+}
+.block-editor-page .pinhole-img-select-wrap li span{
+    max-width: 100%;
+}
